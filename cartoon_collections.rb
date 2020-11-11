@@ -19,14 +19,14 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(planeteer_calls)
- planeteer_calls.each do |element|
-   if element.count > 4
+
+   if planeteer_calls.count > 4
      TRUE
     else
       FALSE
     end
    
- end
+
 end
 
 def find_valid_calls(planeteer_calls)
