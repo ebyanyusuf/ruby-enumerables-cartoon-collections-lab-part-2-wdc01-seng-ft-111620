@@ -29,7 +29,14 @@ def long_planeteer_calls(planeteer_calls)
 
 end
 
-def find_valid_calls(planeteer_calls)
-  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  vali_calls.map
-end
+ 
+ def find_valid_calls()
+ 
+ planeteer_calls.find do |str|
+     if str == "Earth!" || str == "Wind!" || str == "Fire!" || str =="Water!" || str == "Heart!"
+       str
+     else
+       nil
+     end
+   end
+ end
