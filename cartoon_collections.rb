@@ -26,7 +26,7 @@ def long_planeteer_calls(planeteer_calls)
       FALSE
     end
    
- 
+ end
 end
 
 def find_valid_calls(planeteer_calls)
